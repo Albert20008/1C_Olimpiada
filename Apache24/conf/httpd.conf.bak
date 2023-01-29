@@ -389,7 +389,7 @@ LogLevel warn
 </Directory>
 
 # 1c publication
-Alias "/InfoBase" "C:/Server/Catalog/"
+Alias "/Infobase" "C:/Server/Catalog/"
 <Directory "C:/Server/Catalog/">
     AllowOverride All
     Options None

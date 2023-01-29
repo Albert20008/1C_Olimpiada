@@ -1,1 +1,43 @@
-<html><body><h1>It works!</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Креатур</title>
+    <style ></style>
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <input class="input-form" type="text" id="login" placeholder="Введите логин">
+    <input class="input-form" type="password" id="password" placeholder="Введите пароль">
+    <button class="btn" id="registration">Зарегистрироваться</button>
+</body>
+<script type="text/javascript">
+        function sendForm(){
+            let data = {
+                login: document.getElementById("login").value,
+                password : document.getElementById("password").value
+            }
+            const request = new XMLHttpRequest();
+            const url = "http://localhost/Kreatur/hs/CentralService/reg";
+            
+            request.responseType = "json";
+            request.open("POST",url,true);
+            request.setRequestHeader("Authorization","Basic " + btoa("reg_user"));
+            request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+            request.addEventListener("readystatechange",()=>{
+                if(request.readyState === 4 && request.status === 200){
+                    let obj = request.response;
+                    console.log(obj);
+                }
+            });
+            console.log(JSON.stringify(data));
+            request.send(JSON.stringify(data));
+        }
+
+        let registration = document.getElementById("registration");
+        registration.onclick = sendForm;
+</script>
+</html>
