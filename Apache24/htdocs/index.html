@@ -12,6 +12,7 @@
     <input class="input-form" type="text" id="login" placeholder="Введите логин">
     <input class="input-form" type="password" id="password" placeholder="Введите пароль">
     <button class="btn" id="registration">Зарегистрироваться</button>
+    <a href="Kreatur">Уже зарегистирован</a>
 </body>
 <script type="text/javascript">
         function sendForm(){
@@ -31,6 +32,7 @@
                 if(request.readyState === 4 && request.status === 200){
                     let obj = request.response;
                     console.log(obj);
+                    location.href="Kreatur";
                 }
             });
             console.log(JSON.stringify(data));

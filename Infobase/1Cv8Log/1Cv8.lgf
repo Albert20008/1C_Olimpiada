@@ -30,4 +30,6 @@
 {1,ddc71d2d-14a4-4c4d-a8ef-0ab00aa313e8,"afaf",4},
 {5,50f3babf-5e05-405e-9a96-04ebdbbe82cb,"",2},
 {5,4c6f3b32-3ed7-4a17-aa32-7babbf5cd9e3,"",3},
-{4,"_$InfoBase$_.DBConfigUpdateError",13}
+{4,"_$InfoBase$_.DBConfigUpdateError",13},
+{5,787f98ba-28db-4f35-9fe7-2f2541e5f20b,"",4},
+{4,"_$User$_.Delete",14}
