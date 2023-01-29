@@ -664,4 +664,17 @@ ore:warn] [pid 8960:tid 660] AH00098: pid file C:/Server/Apache24/logs/httpd.pid
 [Sun Jan 29 14:55:07.139060 2023] [mpm_winnt:notice] [pid 8960:tid 660] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Sun Jan 29 14:55:09.153745 2023] [mpm_winnt:notice] [pid 504:tid 556] AH00364: Child: All worker threads have exited.
 [Sun Jan 29 14:55:09.347889 2023] [mpm_winnt:notice] [pid 8960:tid 660] AH00430: Parent: Child process 504 exited successfully.
+<<<<<<< Updated upstream
 >>>>>>> d5a877b03b79aab538062bd4903b4ec142b53091
+=======
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 3204:tid 600] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
+[Sun Jan 29 15:25:09.230594 2023] [mpm_winnt:notice] [pid 3204:tid 600] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Sun Jan 29 15:25:09.230594 2023] [core:notice] [pid 3204:tid 600] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
+[Sun Jan 29 15:25:09.234608 2023] [mpm_winnt:notice] [pid 3204:tid 600] AH00418: Parent: Created child process 13456
+[Sun Jan 29 15:25:09.797479 2023] [mpm_winnt:notice] [pid 13456:tid 700] AH00354: Child: Starting 64 worker threads.
+[Sun Jan 29 15:30:58.769964 2023] [mpm_winnt:notice] [pid 3204:tid 600] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jan 29 15:31:00.792172 2023] [mpm_winnt:notice] [pid 13456:tid 700] AH00364: Child: All worker threads have exited.
+[Sun Jan 29 15:31:00.938662 2023] [mpm_winnt:notice] [pid 3204:tid 600] AH00430: Parent: Child process 13456 exited successfully.
+>>>>>>> Stashed changes
