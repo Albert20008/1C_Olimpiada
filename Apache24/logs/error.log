@@ -602,119 +602,139 @@ winnt:notice] [pid 7756:tid 748] AH00424: Parent: Received restart signal -- Res
 [Mon Nov 23 15:01:48.151493 2020] [mpm_winnt:notice] [pid 7756:tid 748] AH00430: Parent: Child process 19652 exited successfully.
 Starting the 'Apache2.4' service
 The 'Apache2.4' service is running.
-pm_winnt:notice] [pid 19324:tid 656] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
-[Sun Jan 29 12:55:51.986958 2023] [mpm_winnt:notice] [pid 19324:tid 656] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
-[Sun Jan 29 12:55:51.986958 2023] [core:notice] [pid 19324:tid 656] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
-[Sun Jan 29 12:55:51.987956 2023] [mpm_winnt:notice] [pid 19324:tid 656] AH00418: Parent: Created child process 25516
-[Sun Jan 29 12:55:52.291192 2023] [mpm_winnt:notice] [pid 25516:tid 576] AH00354: Child: Starting 64 worker threads.
+pm_winnt:notice] [pid 2240:tid 632] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
+[Thu Feb 09 15:15:37.071564 2023] [mpm_winnt:notice] [pid 2240:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Thu Feb 09 15:15:37.071564 2023] [core:notice] [pid 2240:tid 632] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
+[Thu Feb 09 15:15:37.075562 2023] [mpm_winnt:notice] [pid 2240:tid 632] AH00418: Parent: Created child process 7612
+[Thu Feb 09 15:15:37.503160 2023] [mpm_winnt:notice] [pid 7612:tid 236] AH00354: Child: Starting 64 worker threads.
+(OS 5)Отказано в доступе.  : AH10014: Failed to open the 'Apache2.4' service
 The 'Apache2.4' service is restarting.
 The 'Apache2.4' service has restarted.
-winnt:notice] [pid 19324:tid 656] AH00424: Parent: Received restart signal -- Restarting the server.
-[Sun Jan 29 13:03:02.255259 2023] [mpm_winnt:notice] [pid 19324:tid 656] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
-[Sun Jan 29 13:03:02.255259 2023] [mpm_winnt:notice] [pid 19324:tid 656] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
-[Sun Jan 29 13:03:02.255259 2023] [core:notice] [pid 19324:tid 656] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
-[Sun Jan 29 13:03:02.256257 2023] [mpm_winnt:notice] [pid 19324:tid 656] AH00418: Parent: Created child process 16052
-[Sun Jan 29 13:03:03.237380 2023] [mpm_winnt:notice] [pid 16052:tid 636] AH00354: Child: Starting 64 worker threads.
-[Sun Jan 29 13:03:04.244054 2023] [mpm_winnt:notice] [pid 25516:tid 576] AH00364: Child: All worker threads have exited.
-(OS 5)Отказано в доступе.  : AH10014: Failed to open the 'Apache2.4' service
-[Sun Jan 29 13:20:19.943326 2023] [mpm_winnt:notice] [pid 19324:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sun Jan 29 13:20:21.969623 2023] [mpm_winnt:notice] [pid 16052:tid 636] AH00364: Child: All worker threads have exited.
-[Sun Jan 29 13:20:22.221172 2023] [mpm_winnt:notice] [pid 19324:tid 656] AH00430: Parent: Child process 16052 exited successfully.
-Starting the 'Apache2.4' service
-The 'Apache2.4' service is running.
-pm_winnt:notice] [pid 1056:tid 688] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
-[Sun Jan 29 13:20:23.542499 2023] [mpm_winnt:notice] [pid 1056:tid 688] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
-[Sun Jan 29 13:20:23.542499 2023] [core:notice] [pid 1056:tid 688] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
-[Sun Jan 29 13:20:23.543525 2023] [mpm_winnt:notice] [pid 1056:tid 688] AH00418: Parent: Created child process 5876
-[Sun Jan 29 13:20:23.849215 2023] [mpm_winnt:notice] [pid 5876:tid 644] AH00354: Child: Starting 64 worker threads.
-[Sun Jan 29 13:24:49.796189 2023] [mpm_winnt:notice] [pid 1056:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sun Jan 29 13:24:51.826106 2023] [mpm_winnt:notice] [pid 5876:tid 644] AH00364: Child: All worker threads have exited.
-[Sun Jan 29 13:24:52.031478 2023] [mpm_winnt:notice] [pid 1056:tid 688] AH00430: Parent: Child process 5876 exited successfully.
-<<<<<<< HEAD
-Starting the 'Apache2.4' service
-The 'Apache2.4' service is running.
-pm_winnt:notice] [pid 24144:tid 712] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
-[Sun Jan 29 14:52:12.126208 2023] [mpm_winnt:notice] [pid 24144:tid 712] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
-[Sun Jan 29 14:52:12.126208 2023] [core:notice] [pid 24144:tid 712] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
-[Sun Jan 29 14:52:12.127206 2023] [mpm_winnt:notice] [pid 24144:tid 712] AH00418: Parent: Created child process 24908
-[Sun Jan 29 14:52:12.430800 2023] [mpm_winnt:notice] [pid 24908:tid 656] AH00354: Child: Starting 64 worker threads.
-[Sun Jan 29 15:10:51.386618 2023] [mpm_winnt:notice] [pid 24144:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sun Jan 29 15:10:53.403034 2023] [mpm_winnt:notice] [pid 24908:tid 656] AH00364: Child: All worker threads have exited.
-[Sun Jan 29 15:10:53.746846 2023] [mpm_winnt:notice] [pid 24144:tid 712] AH00430: Parent: Child process 24908 exited successfully.
-=======
+winnt:notice] [pid 2240:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Feb 09 15:20:33.571713 2023] [mpm_winnt:notice] [pid 2240:tid 632] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
+[Thu Feb 09 15:20:33.571713 2023] [mpm_winnt:notice] [pid 2240:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Thu Feb 09 15:20:33.571713 2023] [core:notice] [pid 2240:tid 632] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
+[Thu Feb 09 15:20:33.572749 2023] [mpm_winnt:notice] [pid 2240:tid 632] AH00418: Parent: Created child process 1816
+[Thu Feb 09 15:20:34.566567 2023] [mpm_winnt:notice] [pid 1816:tid 564] AH00354: Child: Starting 64 worker threads.
+[Thu Feb 09 15:20:35.571778 2023] [mpm_winnt:notice] [pid 7612:tid 236] AH00364: Child: All worker threads have exited.
 The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 2240:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Feb 09 15:21:42.219763 2023] [mpm_winnt:notice] [pid 2240:tid 632] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
+[Thu Feb 09 15:21:42.219763 2023] [mpm_winnt:notice] [pid 2240:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Thu Feb 09 15:21:42.219763 2023] [core:notice] [pid 2240:tid 632] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
+[Thu Feb 09 15:21:42.221603 2023] [mpm_winnt:notice] [pid 2240:tid 632] AH00418: Parent: Created child process 5092
+[Thu Feb 09 15:21:43.204331 2023] [mpm_winnt:notice] [pid 5092:tid 728] AH00354: Child: Starting 64 worker threads.
+[Thu Feb 09 15:21:44.216200 2023] [mpm_winnt:notice] [pid 1816:tid 564] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 2240:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Feb 09 15:24:14.229294 2023] [mpm_winnt:notice] [pid 2240:tid 632] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
+[Thu Feb 09 15:24:14.229294 2023] [mpm_winnt:notice] [pid 2240:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Thu Feb 09 15:24:14.229294 2023] [core:notice] [pid 2240:tid 632] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
+[Thu Feb 09 15:24:14.231188 2023] [mpm_winnt:notice] [pid 2240:tid 632] AH00418: Parent: Created child process 10100
+[Thu Feb 09 15:24:15.216350 2023] [mpm_winnt:notice] [pid 10100:tid 648] AH00354: Child: Starting 64 worker threads.
+[Thu Feb 09 15:24:16.226893 2023] [mpm_winnt:notice] [pid 5092:tid 728] AH00364: Child: All worker threads have exited.
+(OS 5)Отказано в доступе.  : AH10014: Failed to open the 'Apache2.4' service
+[Mon Feb 20 14:18:35.591192 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11042] AH01630: client denied by server configuration: C:/Server/catalog
+[Mon Feb 20 14:18:37.464389 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11042] AH01630: client denied by server configuration: C:/Server/catalog, referer: http://localhost/Kreatur/ru/exit.html
+[Mon Feb 20 14:18:37.509195 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11042] AH01630: client denied by server configuration: C:/Server/catalog, referer: http://localhost/Kreatur/ru/scripts/mod_sw_sw.js?sysver=8.3.22.1603
+[Mon Feb 20 14:18:39.543848 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11042] AH01630: client denied by server configuration: C:/Server/catalog, referer: http://localhost/Kreatur/ru/scripts/mod_sw_sw.js?sysver=8.3.22.1603
+[Mon Feb 20 14:18:58.649929 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11043] AH01630: client denied by server configuration: C:/Server/catalog
+[Mon Feb 20 14:19:00.520498 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11043] AH01630: client denied by server configuration: C:/Server/catalog, referer: http://localhost/Kreatur/ru/scripts/mod_sw_sw.js?sysver=8.3.22.1603
+[Mon Feb 20 14:19:02.528566 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11043] AH01630: client denied by server configuration: C:/Server/catalog, referer: http://localhost/Kreatur/ru/scripts/mod_sw_sw.js?sysver=8.3.22.1603
+[Mon Feb 20 14:19:07.598604 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11044] AH01630: client denied by server configuration: C:/Server/catalog
+[Mon Feb 20 14:19:09.785412 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11044] AH01630: client denied by server configuration: C:/Server/catalog, referer: http://localhost/Kreatur/ru/scripts/mod_sw_sw.js?sysver=8.3.22.1603
+[Mon Feb 20 14:19:11.523059 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11044] AH01630: client denied by server configuration: C:/Server/catalog, referer: http://localhost/Kreatur/ru/scripts/mod_sw_sw.js?sysver=8.3.22.1603
+[Mon Feb 20 14:19:37.167573 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11047] AH01630: client denied by server configuration: C:/Server/catalog
+[Mon Feb 20 14:19:37.297262 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11048] AH01630: client denied by server configuration: C:/Server/catalog
+[Mon Feb 20 14:19:47.755374 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11049] AH01630: client denied by server configuration: C:/Server/catalog
+[Mon Feb 20 14:19:49.783339 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11050] AH01630: client denied by server configuration: C:/Server/catalog
+[Mon Feb 20 14:23:41.387098 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11051] AH01630: client denied by server configuration: C:/Server/Catalog/ru, referer: http://localhost/Kreatur/ru/scripts/mod_sw_sw.js?sysver=8.3.22.1603
+(OS 5)Отказано в доступе.  : AH10014: Failed to open the 'Apache2.4' service
+[Mon Feb 20 14:24:54.491412 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11095] AH01630: client denied by server configuration: C:/Server/Catalog/
+[Mon Feb 20 14:25:42.495279 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11135] AH01630: client denied by server configuration: C:/Server/Catalog/
+[Mon Feb 20 14:26:02.217170 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11138] AH01630: client denied by server configuration: C:/Server/Catalog/ru, referer: http://localhost/Kreatur/ru/scripts/mod_sw_sw.js?sysver=8.3.22.1603
+[Mon Feb 20 14:26:02.345759 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11138] AH01630: client denied by server configuration: C:/Server/Catalog/ru, referer: http://localhost/Kreatur/ru/exit.html
+[Mon Feb 20 14:26:03.384326 2023] [authz_core:error] [pid 10100:tid 1172] [client ::1:11138] AH01630: client denied by server configuration: C:/Server/Catalog/ru, referer: http://localhost/Kreatur/ru/exit.html
+[Mon Feb 20 14:26:03.386313 2023] [authz_core:error] [pid 10100:tid 1184] [client ::1:11139] AH01630: client denied by server configuration: C:/Server/Catalog/ru, referer: http://localhost/Kreatur/ru/scripts/mod_sw_sw.js?sysver=8.3.22.1603
+[Mon Feb 20 14:26:04.413831 2023] [authz_core:error] [pid 10100:tid 1184] [client ::1:11139] AH01630: client denied by server configuration: C:/Server/Catalog/ru, referer: http://localhost/Kreatur/ru/scripts/mod_sw_sw.js?sysver=8.3.22.1603
+[Mon Feb 20 14:26:04.514365 2023] [authz_core:error] [pid 10100:tid 1184] [client ::1:11139] AH01630: client denied by server configuration: C:/Server/Catalog/ru, referer: http://localhost/Kreatur/ru/exit.html
+[Mon Feb 20 14:26:05.543481 2023] [authz_core:error] [pid 10100:tid 1184] [client ::1:11139] AH01630: client denied by server configuration: C:/Server/Catalog/ru, referer: http://localhost/Kreatur/ru/scripts/mod_sw_sw.js?sysver=8.3.22.1603
+[Mon Feb 20 14:26:09.556755 2023] [authz_core:error] [pid 10100:tid 1184] [client ::1:11139] AH01630: client denied by server configuration: C:/Server/Catalog/ru, referer: http://localhost/Kreatur/ru/exit.html
+[Mon Feb 20 14:26:10.582674 2023] [authz_core:error] [pid 10100:tid 1184] [client ::1:11139] AH01630: client denied by server configuration: C:/Server/Catalog/ru, referer: http://localhost/Kreatur/ru/scripts/mod_sw_sw.js?sysver=8.3.22.1603
+[Mon Feb 20 14:26:38.232857 2023] [authz_core:error] [pid 10100:tid 1184] [client ::1:11145] AH01630: client denied by server configuration: C:/Server/Catalog/
+[Mon Feb 20 14:26:52.822636 2023] [authz_core:error] [pid 10100:tid 1184] [client ::1:11146] AH01630: client denied by server configuration: C:/Server/Catalog/
+[Mon Feb 20 14:27:09.478954 2023] [authz_core:error] [pid 10100:tid 1184] [client ::1:11148] AH01630: client denied by server configuration: C:/Server/Catalog/
+[Mon Feb 20 14:27:19.556083 2023] [authz_core:error] [pid 10100:tid 1184] [client ::1:11149] AH01630: client denied by server configuration: C:/Server/Catalog/
+[Mon Feb 20 14:28:54.555036 2023] [authz_core:error] [pid 10100:tid 1184] [client ::1:11168] AH01630: client denied by server configuration: C:/Server/Catalog/
+[Mon Feb 20 14:29:16.944376 2023] [authz_core:error] [pid 10100:tid 1184] [client ::1:11169] AH01630: client denied by server configuration: C:/Server/Catalog/
+[Mon Feb 20 14:30:19.201781 2023] [mpm_winnt:notice] [pid 2240:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Feb 20 14:30:21.231773 2023] [mpm_winnt:notice] [pid 10100:tid 648] AH00364: Child: All worker threads have exited.
+[Mon Feb 20 14:30:21.491633 2023] [mpm_winnt:notice] [pid 2240:tid 632] AH00430: Parent: Child process 10100 exited successfully.
 Starting the 'Apache2.4' service
 The 'Apache2.4' service is running.
-pm_winnt:notice] [pid 13940:tid 776] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
-[Sun Jan 29 14:07:34.080048 2023] [mpm_winnt:notice] [pid 13940:tid 776] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
-[Sun Jan 29 14:07:34.080048 2023] [core:notice] [pid 13940:tid 776] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
-[Sun Jan 29 14:07:34.089079 2023] [mpm_winnt:notice] [pid 13940:tid 776] AH00418: Parent: Created child process 6412
-[Sun Jan 29 14:07:34.555133 2023] [mpm_winnt:notice] [pid 6412:tid 572] AH00354: Child: Starting 64 worker threads.
-[Sun Jan 29 14:46:19.306812 2023] [mpm_winnt:crit] [pid 6412:tid 572] AH02538: Child: Parent process exited abruptly. Child process is ending
-[Sun Jan 29 14:46:19.306812 2023] [mpm_winnt:warn] [pid 6412:tid 716] (OS 995)Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
-[Sun Jan 29 14:46:19.306812 2023] [mpm_winnt:warn] [pid 6412:tid 720] (OS 995)Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+pm_winnt:notice] [pid 12108:tid 632] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
+[Mon Feb 20 14:30:28.722224 2023] [mpm_winnt:notice] [pid 12108:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Mon Feb 20 14:30:28.722224 2023] [core:notice] [pid 12108:tid 632] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
+[Mon Feb 20 14:30:28.723964 2023] [mpm_winnt:notice] [pid 12108:tid 632] AH00418: Parent: Created child process 8444
+[Mon Feb 20 14:30:29.033542 2023] [mpm_winnt:notice] [pid 8444:tid 644] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 20 15:06:09.171143 2023] [mpm_winnt:notice] [pid 12108:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Feb 20 15:06:11.190939 2023] [mpm_winnt:notice] [pid 8444:tid 644] AH00364: Child: All worker threads have exited.
+[Mon Feb 20 15:06:11.519637 2023] [mpm_winnt:notice] [pid 12108:tid 632] AH00430: Parent: Child process 8444 exited successfully.
 Starting the 'Apache2.4' service
 The 'Apache2.4' service is running.
-ore:warn] [pid 8960:tid 660] AH00098: pid file C:/Server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
-[Sun Jan 29 14:47:00.121929 2023] [mpm_winnt:notice] [pid 8960:tid 660] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
-[Sun Jan 29 14:47:00.121929 2023] [mpm_winnt:notice] [pid 8960:tid 660] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
-[Sun Jan 29 14:47:00.121929 2023] [core:notice] [pid 8960:tid 660] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
-[Sun Jan 29 14:47:00.124939 2023] [mpm_winnt:notice] [pid 8960:tid 660] AH00418: Parent: Created child process 504
-[Sun Jan 29 14:47:00.677780 2023] [mpm_winnt:notice] [pid 504:tid 556] AH00354: Child: Starting 64 worker threads.
-[Sun Jan 29 14:55:07.139060 2023] [mpm_winnt:notice] [pid 8960:tid 660] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sun Jan 29 14:55:09.153745 2023] [mpm_winnt:notice] [pid 504:tid 556] AH00364: Child: All worker threads have exited.
-[Sun Jan 29 14:55:09.347889 2023] [mpm_winnt:notice] [pid 8960:tid 660] AH00430: Parent: Child process 504 exited successfully.
-<<<<<<< Updated upstream
->>>>>>> d5a877b03b79aab538062bd4903b4ec142b53091
-=======
+pm_winnt:notice] [pid 5580:tid 736] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
+[Mon Feb 20 15:06:18.879218 2023] [mpm_winnt:notice] [pid 5580:tid 736] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Mon Feb 20 15:06:18.879218 2023] [core:notice] [pid 5580:tid 736] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
+[Mon Feb 20 15:06:18.881384 2023] [mpm_winnt:notice] [pid 5580:tid 736] AH00418: Parent: Created child process 9456
+[Mon Feb 20 15:06:19.334122 2023] [mpm_winnt:notice] [pid 9456:tid 604] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 20 15:07:02.831488 2023] [mpm_winnt:notice] [pid 5580:tid 736] AH00428: Parent: child process 9456 exited with status 1 -- Restarting.
+[Mon Feb 20 15:07:02.857993 2023] [mpm_winnt:notice] [pid 5580:tid 736] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
+[Mon Feb 20 15:07:02.857993 2023] [mpm_winnt:notice] [pid 5580:tid 736] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Mon Feb 20 15:07:02.857993 2023] [core:notice] [pid 5580:tid 736] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
+[Mon Feb 20 15:07:02.858992 2023] [mpm_winnt:notice] [pid 5580:tid 736] AH00418: Parent: Created child process 11628
+[Mon Feb 20 15:07:03.223261 2023] [mpm_winnt:notice] [pid 11628:tid 552] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 20 15:07:06.612679 2023] [mpm_winnt:crit] [pid 11628:tid 552] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Feb 20 15:07:06.613451 2023] [mpm_winnt:warn] [pid 11628:tid 1192] (OS 995)Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Feb 20 15:07:06.613451 2023] [mpm_winnt:warn] [pid 11628:tid 1188] (OS 995)Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Feb 20 15:07:08.626945 2023] [mpm_winnt:notice] [pid 11628:tid 552] AH00364: Child: All worker threads have exited.
 Starting the 'Apache2.4' service
 The 'Apache2.4' service is running.
-pm_winnt:notice] [pid 3204:tid 600] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
-[Sun Jan 29 15:25:09.230594 2023] [mpm_winnt:notice] [pid 3204:tid 600] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
-[Sun Jan 29 15:25:09.230594 2023] [core:notice] [pid 3204:tid 600] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
-[Sun Jan 29 15:25:09.234608 2023] [mpm_winnt:notice] [pid 3204:tid 600] AH00418: Parent: Created child process 13456
-[Sun Jan 29 15:25:09.797479 2023] [mpm_winnt:notice] [pid 13456:tid 700] AH00354: Child: Starting 64 worker threads.
-[Sun Jan 29 15:30:58.769964 2023] [mpm_winnt:notice] [pid 3204:tid 600] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sun Jan 29 15:31:00.792172 2023] [mpm_winnt:notice] [pid 13456:tid 700] AH00364: Child: All worker threads have exited.
-[Sun Jan 29 15:31:00.938662 2023] [mpm_winnt:notice] [pid 3204:tid 600] AH00430: Parent: Child process 13456 exited successfully.
->>>>>>> Stashed changes
+ore:warn] [pid 4524:tid 612] AH00098: pid file C:/Server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 20 15:07:26.269483 2023] [mpm_winnt:notice] [pid 4524:tid 612] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
+[Mon Feb 20 15:07:26.269483 2023] [mpm_winnt:notice] [pid 4524:tid 612] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Mon Feb 20 15:07:26.269483 2023] [core:notice] [pid 4524:tid 612] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
+[Mon Feb 20 15:07:26.271264 2023] [mpm_winnt:notice] [pid 4524:tid 612] AH00418: Parent: Created child process 8856
+[Mon Feb 20 15:07:26.735914 2023] [mpm_winnt:notice] [pid 8856:tid 676] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 20 15:08:54.139917 2023] [mpm_winnt:crit] [pid 8856:tid 676] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Feb 20 15:08:54.139917 2023] [mpm_winnt:warn] [pid 8856:tid 2020] (OS 995)Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Mon Feb 20 15:08:54.139917 2023] [mpm_winnt:warn] [pid 8856:tid 1972] (OS 995)Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
 Starting the 'Apache2.4' service
 The 'Apache2.4' service is running.
-pm_winnt:notice] [pid 13596:tid 688] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
-[Sun Jan 29 16:07:53.680216 2023] [mpm_winnt:notice] [pid 13596:tid 688] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
-[Sun Jan 29 16:07:53.680216 2023] [core:notice] [pid 13596:tid 688] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
-[Sun Jan 29 16:07:53.685234 2023] [mpm_winnt:notice] [pid 13596:tid 688] AH00418: Parent: Created child process 11492
-[Sun Jan 29 16:07:54.136229 2023] [mpm_winnt:notice] [pid 11492:tid 668] AH00354: Child: Starting 64 worker threads.
-[Sun Jan 29 16:20:50.165268 2023] [mpm_winnt:notice] [pid 13596:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sun Jan 29 16:20:52.175961 2023] [mpm_winnt:notice] [pid 11492:tid 668] AH00364: Child: All worker threads have exited.
-[Sun Jan 29 16:20:52.387162 2023] [mpm_winnt:notice] [pid 13596:tid 688] AH00430: Parent: Child process 11492 exited successfully.
-Starting the 'Apache2.4' service
-The 'Apache2.4' service is running.
-pm_winnt:notice] [pid 14308:tid 588] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
-[Sun Jan 29 16:21:05.768160 2023] [mpm_winnt:notice] [pid 14308:tid 588] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
-[Sun Jan 29 16:21:05.768160 2023] [core:notice] [pid 14308:tid 588] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
-[Sun Jan 29 16:21:05.771170 2023] [mpm_winnt:notice] [pid 14308:tid 588] AH00418: Parent: Created child process 1216
-[Sun Jan 29 16:21:06.222167 2023] [mpm_winnt:notice] [pid 1216:tid 544] AH00354: Child: Starting 64 worker threads.
-[Sun Jan 29 16:21:43.450529 2023] [mpm_winnt:notice] [pid 14308:tid 588] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sun Jan 29 16:21:47.922384 2023] [mpm_winnt:notice] [pid 1216:tid 544] AH00364: Child: All worker threads have exited.
-[Sun Jan 29 16:21:48.031249 2023] [mpm_winnt:notice] [pid 14308:tid 588] AH00430: Parent: Child process 1216 exited successfully.
-Starting the 'Apache2.4' service
-The 'Apache2.4' service is running.
-pm_winnt:notice] [pid 12976:tid 600] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
-[Sun Jan 29 16:22:16.962183 2023] [mpm_winnt:notice] [pid 12976:tid 600] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
-[Sun Jan 29 16:22:16.962183 2023] [core:notice] [pid 12976:tid 600] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
-[Sun Jan 29 16:22:16.965195 2023] [mpm_winnt:notice] [pid 12976:tid 600] AH00418: Parent: Created child process 13972
-[Sun Jan 29 16:22:17.425726 2023] [mpm_winnt:notice] [pid 13972:tid 696] AH00354: Child: Starting 64 worker threads.
-[Sun Jan 29 16:23:48.654576 2023] [mpm_winnt:notice] [pid 12976:tid 600] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sun Jan 29 16:23:50.670796 2023] [mpm_winnt:notice] [pid 13972:tid 696] AH00364: Child: All worker threads have exited.
-[Sun Jan 29 16:23:50.845880 2023] [mpm_winnt:notice] [pid 12976:tid 600] AH00430: Parent: Child process 13972 exited successfully.
-Starting the 'Apache2.4' service
-The 'Apache2.4' service is running.
-pm_winnt:notice] [pid 11868:tid 664] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
-[Sun Jan 29 16:24:45.404131 2023] [mpm_winnt:notice] [pid 11868:tid 664] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
-[Sun Jan 29 16:24:45.404131 2023] [core:notice] [pid 11868:tid 664] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
-[Sun Jan 29 16:24:45.407142 2023] [mpm_winnt:notice] [pid 11868:tid 664] AH00418: Parent: Created child process 10144
-[Sun Jan 29 16:24:45.886232 2023] [mpm_winnt:notice] [pid 10144:tid 664] AH00354: Child: Starting 64 worker threads.
-[Sun Jan 29 16:33:16.499155 2023] [mpm_winnt:notice] [pid 11868:tid 664] AH00422: Parent: Received shutdown signal -- Shutting down the server.
-[Sun Jan 29 16:33:18.519382 2023] [mpm_winnt:notice] [pid 10144:tid 664] AH00364: Child: All worker threads have exited.
-[Sun Jan 29 16:33:18.680416 2023] [mpm_winnt:notice] [pid 11868:tid 664] AH00430: Parent: Child process 10144 exited successfully.
+ore:warn] [pid 9760:tid 608] AH00098: pid file C:/Server/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 20 15:10:02.660584 2023] [mpm_winnt:notice] [pid 9760:tid 608] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
+[Mon Feb 20 15:10:02.660584 2023] [mpm_winnt:notice] [pid 9760:tid 608] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Mon Feb 20 15:10:02.660584 2023] [core:notice] [pid 9760:tid 608] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
+[Mon Feb 20 15:10:02.661588 2023] [mpm_winnt:notice] [pid 9760:tid 608] AH00418: Parent: Created child process 15812
+[Mon Feb 20 15:10:03.021084 2023] [mpm_winnt:notice] [pid 15812:tid 644] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 9760:tid 608] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Feb 20 15:11:20.129775 2023] [mpm_winnt:notice] [pid 9760:tid 608] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
+[Mon Feb 20 15:11:20.129775 2023] [mpm_winnt:notice] [pid 9760:tid 608] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Mon Feb 20 15:11:20.129775 2023] [core:notice] [pid 9760:tid 608] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
+[Mon Feb 20 15:11:20.133767 2023] [mpm_winnt:notice] [pid 9760:tid 608] AH00418: Parent: Created child process 1352
+[Mon Feb 20 15:11:21.113085 2023] [mpm_winnt:notice] [pid 1352:tid 692] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 20 15:11:22.122283 2023] [mpm_winnt:notice] [pid 15812:tid 644] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+Thon Feb 20 15:11:27.608381 2023] [mpm_winnt:notice] [pid 9760:tid 608] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Feb 20 15:11:27.632993 2023] [mpm_winnt:notice] [pid 9760:tid 608] AH00455: Apache/2.4.41 (Win32) configured -- resuming normal operations
+[Mon Feb 20 15:11:27.632993 2023] [mpm_winnt:notice] [pid 9760:tid 608] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Mon Feb 20 15:11:27.632993 2023] [core:notice] [pid 9760:tid 608] AH00094: Command line: 'C:\\Server\\Apache24\\bin\\httpd.exe -d C:/Server/Apache24'
+[Mon Feb 20 15:11:27.637042 2023] [mpm_winnt:notice] [pid 9760:tid 608] AH00418: Parent: Created child process 16652
+[Mon Feb 20 15:11:28.619471 2023] [mpm_winnt:notice] [pid 16652:tid 712] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 20 15:11:29.629321 2023] [mpm_winnt:notice] [pid 1352:tid 692] AH00364: Child: All worker threads have exited.
+[Mon Mar 06 14:44:00.001049 2023] [mpm_winnt:notice] [pid 9760:tid 608] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 06 14:44:02.012385 2023] [mpm_winnt:notice] [pid 16652:tid 712] AH00364: Child: All worker threads have exited.
+[Mon Mar 06 14:44:02.275666 2023] [mpm_winnt:notice] [pid 9760:tid 608] AH00430: Parent: Child process 16652 exited successfully.

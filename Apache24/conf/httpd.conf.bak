@@ -389,13 +389,13 @@ LogLevel warn
 </Directory>
 
 # 1c publication
-Alias "/Infobase" "C:/Server/Catalog/"
-<Directory "C:/Server/Catalog/">
+Alias "/Infobase" "C:/Server/catalog/"
+<Directory "C:/Server/catalog/">
     AllowOverride All
     Options None
     Require all granted
     SetHandler 1c-application
-    ManagedApplicationDescriptor "C:/Server/Catalog/default.vrd"
+    ManagedApplicationDescriptor "C:/Server/catalog/default.vrd"
 </Directory>
 
 

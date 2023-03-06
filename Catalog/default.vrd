@@ -4,11 +4,21 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		base="/Kreatur"
 		ib="File=&quot;C:\Server\Infobase&quot;;">
-	<ws enable="false"/>
+	<ws enable="false"
+			pointEnableCommon="true"/>
 	<standardOdata enable="true"
 			reuseSessions="autouse"
 			sessionMaxAge="20"
 			poolSize="10"
 			poolTimeout="5"/>
 	<analytics enable="true"/>
+	<httpServices>
+		<service name="ЦентральныйСервер"
+				rootUrl="CentralService"
+				enable="true"
+				reuseSessions="autouse"
+				sessionMaxAge="20"
+				poolSize="10"
+				poolTimeout="5"/>
+	</httpServices>
 </point>
